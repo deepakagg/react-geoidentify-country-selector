@@ -2,10 +2,21 @@
     width: 100%;
     font-weight: 300;
     text-align: left;
-    color: #a7a7a7;
-    border-radius: 2px;
-    border: solid 0.5px #a7a7a7;
+    border-radius: 5px;
     cursor: pointer;
+    height: 3.7rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    border: 1px solid #cccccc;
+    background: #efefef;
+    color: #666666;
+    font-size: 1.55rem;
+    font-weight: 500;
+    line-height: 1.65em;
+}
+
+.c-select span {
+    line-height: 1.5em;
 }
 
 .c-dropdown-menu {
@@ -34,7 +45,7 @@
 }
 
 .c-dropdown-flag {
-    margin: 5px 5px 0 0;
+    margin: 8px 5px 0 0;
 }
 
 .c-dropdown-menu-overflow {
@@ -45,4 +56,9 @@
 
 .dropdown-item.active, .dropdown-item:active {
     background-color: #a6a7a8;
+}
+
+.dropdown-item {
+    font-size: 15px;
+    line-height: 20px;
 }
